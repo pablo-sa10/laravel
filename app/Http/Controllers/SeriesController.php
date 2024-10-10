@@ -14,6 +14,6 @@ class SeriesController extends Controller
             'dark'
         ];
 
-        return view('listar-series', compact('series'));
+        return view('series.index', compact('series'));
     }
 }
