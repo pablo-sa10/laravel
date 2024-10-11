@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
 </head>
 <body>
-    <h1>{{ $tittle }}</h1>
-
-    {{$slot}}
+    <div class="container mt-5">
+        <h1>{{ $tittle }}</h1>
+    
+        {{$slot}}
+    </div>
 </body>
 </html>
