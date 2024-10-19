@@ -13,7 +13,7 @@
 
     <script>
         //O CODIGO ABAIXO SERIA A MESMA COISA QUE UM JSON_ENCODE()
-        // const series = {{Js::from($series)}};
+        // const series = {{ Js::from($series) }};
     </script>
 
 </x-layout>
