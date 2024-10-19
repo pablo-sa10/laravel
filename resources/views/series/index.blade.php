@@ -4,7 +4,7 @@
 
     <ul class="list-group">
         @foreach($series as $serie)
-            <li class="list-group-item">{{ $serie }}</li>
+            <li class="list-group-item">{{ $serie->nome }}</li>
         @endforeach
     </ul>
 
@@ -13,7 +13,7 @@
 
     <script>
         //O CODIGO ABAIXO SERIA A MESMA COISA QUE UM JSON_ENCODE()
-        const series = {{Js::from($series)}};
+        // const series = {{Js::from($series)}};
     </script>
 
 </x-layout>
